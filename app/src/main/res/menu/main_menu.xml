@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--for backstack manage
+    android:menuCategory="secondary"-->
+
+    <item
+        android:id="@+id/setting_graph"
+        android:icon="@drawable/ic_settings"
+        android:menuCategory="secondary"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/aboutApp"
+        android:icon="@drawable/ic_info"
+        android:menuCategory="secondary"
+        android:title="About Us"
+        android:iconTint="@color/white"
+        app:showAsAction="ifRoom" />
+
+</menu>
